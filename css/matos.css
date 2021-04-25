@@ -21,12 +21,19 @@ article>div {
     display: flex;
     align-items: center;
 }
-img {
-    max-height: 100px;
+div>img {
+    height: 100px;
     width: auto;
 }
-div>img {
+div>img, div>div {
     border: solid 2px;
     border-radius: 10px;
     margin: auto 0.5em;
 }
+div>div {
+    padding: 0.5em;
+}/*
+article>img {
+    height: 58px;
+    width: ;
+}*/
