@@ -1,0 +1,32 @@
+/* CSS matos.html */
+main {
+    background-color: white;
+    padding: 0 20%;
+    padding: 3em ;
+}
+pre {
+    margin: 1em 0;
+}
+aside {
+    float: right;
+}
+hr {
+    margin: 0.5em 0;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+article>div {
+    display: flex;
+    align-items: center;
+}
+img {
+    max-height: 100px;
+    width: auto;
+}
+div>img {
+    border: solid 2px;
+    border-radius: 10px;
+    margin: auto 0.5em;
+}

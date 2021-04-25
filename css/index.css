@@ -1,0 +1,42 @@
+/* CSS index.html */
+/* Main */
+main {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(9, 1fr);
+}
+div.bg{ /* Image fond */
+	grid-column: 2 / 8;
+	grid-row: 1	 / 5;
+}
+div.ubox {/* Boite blanche post-image*/
+	background-color: white;
+	grid-column: 2 / 8;
+	grid-row: 5 / 10;
+	padding: 15em 4em 0em;
+	padding-top: 15em;
+}
+div.box{ /* Boite arrondie */
+	background-color: lightgray;
+	border-radius: 20px;
+	padding: 10px;
+	grid-column: 3 / 7;
+	grid-row: 4 / 6;
+	z-index: 1;
+}
+div>p { /* Taille font paragraphes*/
+	font-size: large;
+}
+section {
+	margin: 1em 0;
+}
+/* Réglages Grid des aside paires (p) et impaires (i) */
+.imgasi { /* Images dans les aside */
+	max-height: 200px;
+}
+.asii {
+	float: right;
+}
+.asip {
+	float: left;
+}
