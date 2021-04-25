@@ -7,6 +7,10 @@ main {
 pre {
     margin: 1em 0;
 }
+dt {
+    text-decoration: underline;
+    margin-top: 1em;
+}
 aside {
     float: right;
 }
@@ -32,8 +36,12 @@ div>img, div>div {
 }
 div>div {
     padding: 0.5em;
-}/*
+}
 article>img {
+    object-fit: contain;
     height: 58px;
-    width: ;
-}*/
+    width: auto;
+}
+#grx {
+    background-color: lightgray;
+}
