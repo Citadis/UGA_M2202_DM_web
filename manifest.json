@@ -1,0 +1,27 @@
+{
+    "name": "Cit&Go PWA",
+    "short_name": "Cit&Go",
+    "description": "PWA de test pour le site de Cit&GO!",
+    "icons": [
+      {
+        "src": "/img/Cit&GO Logo 192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/fav.ico",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/CGO_512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#FFD800",
+    "background_color": "#353738",
+    "scope":"./"
+  }

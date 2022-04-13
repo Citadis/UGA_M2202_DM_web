@@ -1,0 +1,24 @@
+main>div{
+    padding: 5vw;
+    color: white;
+    font-size: xx-large;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input, textarea, button{
+    min-height: 100px;
+    padding: 2vh;
+    font-size: xx-large;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+/* @media (min-width:768px) {
+    main>div{
+        padding: 10vw;
+    }
+} */
